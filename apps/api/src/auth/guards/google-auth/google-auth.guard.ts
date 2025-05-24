@@ -4,3 +4,5 @@ import { Observable } from 'rxjs';
 
 @Injectable()
 export class GoogleAuthGuard extends AuthGuard('google') {}
+
+// this is a google 0auth guard file

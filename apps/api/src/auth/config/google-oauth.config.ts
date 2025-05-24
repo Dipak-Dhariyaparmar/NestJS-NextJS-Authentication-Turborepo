@@ -5,3 +5,5 @@ export default registerAs('googleOAuth', () => ({
   clientSecret: process.env.GOOGLE_CLIENT_SECRET,
   callbackURL: process.env.GOOGLE_CALLBACK_URL,
 }));
+
+// this is a google 0auth config file
