@@ -8,5 +8,3 @@ export default registerAs(
     expiresIn: process.env.REFRESH_JWT_EXPIRES_IN,
   }),
 );
-
-// this is a refresh token file

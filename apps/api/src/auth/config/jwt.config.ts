@@ -10,5 +10,3 @@ export default registerAs(
     },
   }),
 );
-
-// this is a jwt config file
