@@ -21,3 +21,8 @@ export class JwtAuthGuard extends AuthGuard('jwt') {
     return super.canActivate(context);
   }
 }
+
+// this guard is used to protect routes that require JWT authentication.
+// It extends the AuthGuard from @nestjs/passport, specifying 'jwt' as the strategy.
+// The canActivate method checks if the route is public using a custom decorator.
+// If the route is public, it allows access without authentication.

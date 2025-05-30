@@ -10,3 +10,8 @@ export default registerAs(
     },
   }),
 );
+
+// this configuration file is used to register the JWT configuration
+// with the NestJS configuration system. It retrieves the necessary
+// environment variables for the JWT secret and expiration time,
+// allowing the application to sign and verify JSON Web Tokens (JWTs).
