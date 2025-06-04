@@ -13,3 +13,4 @@ async function bootstrap() {
   );
 }
 bootstrap();
+// this is amain componennt
