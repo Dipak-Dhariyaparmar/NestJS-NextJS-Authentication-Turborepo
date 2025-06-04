@@ -6,3 +6,4 @@ export class AppService {
     return 'Hello World!';
   }
 }
+// this is a app services component
