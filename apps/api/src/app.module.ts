@@ -13,3 +13,4 @@ import { GraphqlModule } from './graphql/graphql.module';
   providers: [AppService, PrismaService],
 })
 export class AppModule {}
+// this is a app module component
