@@ -20,3 +20,5 @@ describe('AppController', () => {
     });
   });
 });
+
+// this is a app controller component
